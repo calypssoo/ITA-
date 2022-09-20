@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+  background: transparent;
+  color: #fff
+}
+
+
+header:hover {
+  box-shadow: 0px 0px 15px 2px black;
+}
+
+.menu {
+  flex: 5;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul.menu li {
+  list-style: none;
+  font-size: 1.3rem;
+  padding: 20px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+ul.menu li:hover {
+  transform: scale(1.1);
+  border-color: #fff
+}
+
+.container {
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff
+}
+
+.email {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.ListOne li{
+  text-align: center;
+  margin: 10px;
+  padding-left: 300px;
+  font-size: 1.7rem;
+  list-style-type: none;
+  text-align: left;
+}
+#bar ul li a, a[href]{
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  position: absolute;
+  top: 75px
+}
+main {
+  height: calc(100vh - 80px)
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  font-family: helvetica, arial;
+  font-size: 1.3rem;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(mn.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+html, body {
+  background: #C3CDD9
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+#container {
+  width: 90%
+  max-width: 800px;
+  background: #1C2541
+  margin: 30px auto;
+  pading: 30px;
+}
+
+section {
+  border-top: 1px solid #5BC0BE
+  padding: 20px 0 0;
+}
+
+.right {
+  flex: 5;
+}
+.right {
+  padding: 200px;
+  align-self: flex-start;
+}
+
+.right .box {
+  padding: 40px 50px;
+  border: 3px solid transparent;
+  background: #03030359;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+.right .box {
+  height: 550px
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.paragraphOne h2 {
+  border-style: ridge;
+  border-bottom: none;
+  background-color: #EDEDED;
+  text-align: center;
+  margin: 100px 100px 0px 100px;
+  padding-top: 30px;
+  border: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.paragraphOne p {
+  border-style: ridge;
+  border-top: ridge;
+  background-color: #EDEDED;
+  border: 5px;
+  text-align: justify;
+  margin: 0px 100px 100px 100px;
+  padding: 30px 40px 40px 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.ptwo{
+  margin-bottom: 10px;
+}
+
+.boxtwo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 1500px;
+  padding: 30px;
+  margin-top: 1700px;
+  box-sizing: border-box;
+  background: #EDEDED;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 970px;
+}
+.boxtwo .imgboxone{
+  width: 500px;
+  flex: 0 0 500px;
+}
+.boxtwo .imgboxone img{
+  position: relative;
+  max-width: 100%
+}
+
+.boxtwo .paraTwo h2{
+  text-align:center;
+  padding: 10px;
+}
+.boxtwo .paraTwo p{
+  text-align:center;
+  padding: 20px;
+  text-align: justify;
+}
+
+.listTwo li{
+  list-style-type: none;
+  text-align: center;
+}
+
+
+.boxthree{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 1500px;
+  padding: 30px;
+  margin-top: 2000px;
+  box-sizing: border-box;
+  background: #EDEDED;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: ;
+  height: 1350px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  position: relative;
+}
+
+.paraThree{
+  margin-top: 650px;
+}
+.paraThree h2 {
+  border-style: ridge;
+  border-bottom: none;
+  background-color: #EDEDED;
+  text-align: center;
+  margin: 100px 100px 0px 100px;
+  padding-top: 30px;
+  border: 5px;
+}
+.paraThree p {
+  border-style: ridge;
+  border-top: ridge;
+  background-color: #EDEDED;
+  border: 5px;
+  text-align: justify;
+  margin: 0px 100px 100px 100px;
+  padding: 30px 40px 40px 40px;
+}
+
+.paragraphFour h2 {
+  border-style: ridge;
+  border-bottom: none;
+  background-color: #EDEDED;
+  text-align: center;
+  margin: 100px 100px 0px 100px;
+  padding-top: 30px;
+  border: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.paragraphFour p {
+  border-style: ridge;
+  border-top: ridge;
+  background-color: #EDEDED;
+  border: 5px;
+  text-align: justify;
+  margin: 0px 100px 100px 100px;
+  padding: 30px 40px 40px 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
